@@ -9,7 +9,7 @@ class RobotMap():
     def __init__(self):
         """initialize the robot map"""
         self.motorsMap = CANMap()
-        self.pneumaticsMap = PnumaticsMap()
+        self.pneumaticsMap = PneumaticsMap()
         self.controllerMap = ControllerMap()
 
         
